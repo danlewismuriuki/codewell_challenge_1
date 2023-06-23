@@ -18,7 +18,8 @@ header{
     align-items: center;
     justify-content: space-around;
     background-color: black;
-    padding: 10PX;
+    padding: 20PX;
+    margin-left: -30px;
 }
 .logo{
     color: aliceblue;
@@ -47,6 +48,7 @@ header a {
 .not-hero{
     background-color: black;
     color:whitesmoke;
+    padding-left: 50px;
 }
 .large-para{
     font-size: 60px   
@@ -56,6 +58,8 @@ header a {
 }
 .svg-container{
     background-color: black;
+    margin-left: -30px;
+    padding-left: 20px;
 }
 ul{
     display: flex;
@@ -87,6 +91,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     padding-bottom: 30px;
+    margin-left: -37px;
 }
 .spence-para{
     font-size: 20px;
@@ -103,6 +108,8 @@ ul{
     background-color: #555a63;
     color:white;
     padding-top: 20px;
+    margin-left: -50px;
+    padding-bottom: 20px;
 }
 span{
     font-size: 30px;
@@ -112,6 +119,10 @@ span{
     color: aliceblue;
     font-size: 10px;
     padding: 80px;
+    margin-left: -20px;
+}
+.cta .para1{
+    font-size: 48px;
 }
 footer{
     background-color: #555a63;
@@ -123,6 +134,7 @@ footer{
 .ftr{
     display: flex;
     gap: 10px;
+    margin-left: 20px;
 }
 .Jon{
     color: white;
