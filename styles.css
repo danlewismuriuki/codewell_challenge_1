@@ -16,7 +16,7 @@ body{
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: black;
     padding: 10PX;
 }
@@ -39,6 +39,7 @@ header a {
 .button-container{
     padding: 10px;
     background-color: yellow;
+    border-radius: 4px;
 }
 .button{
     color: black;
@@ -48,5 +49,49 @@ header a {
     color:whitesmoke;
 }
 .large-para{
-    font-size: 60px;
+    font-size: 60px   
+}
+.small-para{
+    font-size: 20px;
+}
+.svg-container{
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.svg-container ul img {
+    width: 60px;
+    height: 40px;
+}
+.pics{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*
+.pics li{
+    height: 20px;
+    width: 20px;
+}*/
+.pics-para{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.spence-para{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.YelpCamp-para{
+    font-size: 20px;
+    padding: 20px;
 }
