@@ -124,6 +124,22 @@ span{
 .cta .para1{
     font-size: 48px;
 }
+.button-container2{
+    color: white;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 2px;
+    width: 120px;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.button-container2 a{
+    text-decoration: none;
+}
 footer{
     background-color: #555a63;
     padding: 20px;
