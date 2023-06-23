@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+*{  
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    font-family: 'Prata', serif;
+}
+body{
+    font-family: 'Prata', serif;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20PX;
+    margin-left: -30px;
+}
+.logo{
+    color: aliceblue;
+}
+li{
+    list-style: none;
+}
+header a {
+    text-decoration: none;
+}
+.nav-list{
+    display: flex;
+    gap: 15px;
+}
+.nav-list li a {
+    color: aliceblue;
+}
+.button-container{
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 4px;
+}
+.button{
+    color: black;
+}
+.not-hero{
+    background-color: black;
+    color:whitesmoke;
+    padding-left: 50px;
+}
+.large-para{
+    font-size: 60px   
+}
+.small-para{
+    font-size: 20px;
+}
+.svg-container{
+    background-color: black;
+    margin-left: -30px;
+    padding-left: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.svg-container ul img {
+    width: 60px;
+    height: 40px;
+}
+.pics{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*
+.pics li{
+    height: 20px;
+    width: 20px;
+}*/
+.pics-para{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-left: -37px;
+}
+.spence-para{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.YelpCamp-para{
+    font-size: 20px;
+    padding: 20px;
+}
+.para{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    background-color: #555a63;
+    color:white;
+    padding-top: 20px;
+    margin-left: -50px;
+    padding-bottom: 20px;
+}
+span{
+    font-size: 30px;
+}
+.cta{
+    background-color: black;
+    color: aliceblue;
+    font-size: 10px;
+    padding: 80px;
+    margin-left: -20px;
+}
+.cta .para1{
+    font-size: 48px;
+}
+.button-container2{
+    color: white;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 2px;
+    width: 120px;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.button-container2 a{
+    text-decoration: none;
+}
+footer{
+    background-color: #555a63;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ftr{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+.Jon{
+    color: white;
+}
